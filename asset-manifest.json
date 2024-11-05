@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Myportfolio/static/css/main.335f9415.css",
+    "main.js": "/Myportfolio/static/js/main.cc319a82.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Myportfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Myportfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portfolio.png": "/Myportfolio/static/media/portfolio.c461348f2d70d7726b3a.png",
+    "static/media/Internship Certificate-VISHNUSANKAR.png": "/Myportfolio/static/media/Internship Certificate-VISHNUSANKAR.42450d25aec1244473d7.png",
+    "static/media/my image.jpeg": "/Myportfolio/static/media/my image.48327839530a17269174.jpeg",
+    "static/media/skillbuild certificate.jpg": "/Myportfolio/static/media/skillbuild certificate.1cb45c850a7872b25f87.jpg",
+    "static/media/Python flask.png": "/Myportfolio/static/media/Python flask.6f65b803a9af8ace5aad.png",
+    "static/media/Amazon Prime Movies and TV Shows.png": "/Myportfolio/static/media/Amazon Prime Movies and TV Shows.02044443d1a301c979dd.png",
+    "static/media/My Resume.pdf": "/Myportfolio/static/media/My Resume.a3233e172967203b35fe.pdf",
+    "static/media/home-main.svg": "/Myportfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/Myportfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/Myportfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/Student form.png": "/Myportfolio/static/media/Student form.2fb8e9385253262f49bb.png",
+    "static/media/Netflix.png": "/Myportfolio/static/media/Netflix.18dd476b1e3a3132ca58.png",
+    "index.html": "/Myportfolio/index.html",
+    "static/media/pre.svg": "/Myportfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "main.335f9415.css.map": "/Myportfolio/static/css/main.335f9415.css.map",
+    "main.cc319a82.js.map": "/Myportfolio/static/js/main.cc319a82.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Myportfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Myportfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.335f9415.css",
+    "static/js/main.cc319a82.js"
+  ]
+}
