@@ -1,0 +1,61 @@
+/* 3D NavBar styling */
+.navbar {
+    background: rgba(0, 0, 0, 0.85);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  
+  /* Sticky effect */
+  .sticky {
+    background: rgba(0, 0, 0, 0.95);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* 3D Logo Styling */
+  .brand-title h1 {
+    color: #fff;
+    font-size: 1.5em;
+    transition: transform 0.3s ease;
+  }
+  
+  .brand-title h1:hover {
+    transform: perspective(100px) rotateX(10deg) rotateY(5deg);
+  }
+  
+  /* Nav Items Styling */
+  .nav-items .nav-link {
+    color: #ddd;
+    font-size: 1em;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-items .nav-link:hover {
+    color: #00ffc3;
+    transform: perspective(100px) translateZ(5px);
+  }
+  
+  /* Icon 3D Hover */
+  .nav-icon {
+    margin-bottom: 2px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-icon:hover {
+    color: #00ffc3;
+    transform: perspective(100px) translateZ(8px);
+  }
+  
+  /* Fork Button Styling */
+  .fork-btn .fork-btn-inner {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .fork-btn .fork-btn-inner:hover {
+    transform: perspective(100px) translateZ(5px);
+    background-color: #00ffc3;
+    color: #333;
+  }
