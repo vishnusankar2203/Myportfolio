@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="https://pbs.twimg.com/profile_images/1615979159150563328/tAV1FK4N_400x400.jpg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<meta name="description" content="Self Developed personal website build with React.js" />
+
+	<!-- Open Graph, Twitter, and SEO Meta Tags -->
+	<meta property="og:title" content="VS | Portfolio" />
+	<meta property="og:description" content="Self Developed personal website build with React.js" />
+	<meta property="og:image" content="https://pbs.twimg.com/profile_images/1615979159150563328/tAV1FK4N_400x400.jpg" />
+	<meta property="og:url" content="https://yourwebsite.com" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="VS | Portfolio" />
+	<meta name="twitter:description" content="Self Developed personal website build with React.js" />
+	<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1615979159150563328/tAV1FK4N_400x400.jpg" />
+	<meta name="keywords" content="portfolio, Data Analyst, React.js, VS, personal website" />
+	<meta name="author" content="Vishnusankar" />
+	<meta name="robots" content="index, follow" />
+
+	<!-- Preconnect and Preload -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="manifest" href="manifest.json" />
+
+	<title>VS | Portfolio</title>
+
+	<!-- JSON-LD for Structured Data -->
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": "Vishnusankar",
+		"url": "http://localhost:3000/",
+		"sameAs": [
+			"https://www.linkedin.com/in/vishnusankar2203/",
+			"https://github.com/vishnusankar2203",
+			"https://www.instagram.com/itz_vizhnu/"
+		],
+		"jobTitle": "Data Analyst",
+		"worksFor": {
+			"@type": "Organization",
+			"name": "VS Portfolio"
+		}
+	}
+	</script>
+
+	<style>
+		body {
+			font-family: 'Roboto', Arial, sans-serif;
+		}
+		body.light-mode {
+			background-color: #ffffff;
+			color: #000000;
+		}
+		body.dark-mode {
+			background-color: #000000;
+			color: #ffffff;
+		}
+	</style>
+</head>
+
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root"></div>
+	<div id="loading">Loading...</div>
+
+	<button id="dark-mode-toggle">Toggle Dark Mode</button>
+	<script>
+		window.addEventListener("load", () => {
+			document.getElementById("loading").style.display = "none";
+		});
+		const toggleButton = document.getElementById('dark-mode-toggle');
+		toggleButton.addEventListener('click', () => {
+			document.body.classList.toggle('dark-mode');
+			document.body.classList.toggle('light-mode');
+		});
+	</script>
+</body>
+</html>
