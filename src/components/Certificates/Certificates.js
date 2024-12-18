@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Certicards from "./Certicards";
 import Particle from "../Particle";
 
-// Import the certificate images
-import internshipCertificate from "../../Assets/Certificates/Internship Certificate-VISHNUSANKAR.png"; 
-import pythonFlaskCertificate from "../../Assets/Certificates/Python flask.png"; // Import the Python Flask certificate
-import skillbuildCertificate from "../../Assets/Certificates/skillbuild certificate.jpg"; // Import the Skillbuild certificate
+// Import certificate images
+import internshipCertificate from "../../Assets/Certificates/Internship Certificate-VISHNUSANKAR.png";
+import pythonFlaskCertificate from "../../Assets/Certificates/Python flask.png";
+import skillbuildCertificate from "../../Assets/Certificates/skillbuild certificate.jpg";
+import playstore from "../../Assets/Certificates/Play store-1.png"; 
 
 function Certificates() {
   return (
@@ -14,43 +15,57 @@ function Certificates() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="purple">Achievements </strong>
+          My <strong className="purple">Achievements</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few certificates I've achieved recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* Internship Certificate */}
           <Col md={4} className="project-card">
             <Certicards
-              imgPath={internshipCertificate} // Use the imported image
+              imgPath={internshipCertificate}
               isBlog={false}
               title="AI-Driven Digital Marketing Internship Certificate"
-              description="Successfully completed 1 Month AI-Driven Digital Marketing Internship in the Ezofis way to digital transformation."
-              link={internshipCertificate} // Use the image for download
-              downloadText="Download Certificate" // Optional: Text for the download button
+              description="Successfully completed a 1-month AI-Driven Digital Marketing Internship with Ezofis, focusing on digital transformation."
+              link={internshipCertificate}
+              downloadText="Download Certificate"
             />
           </Col>
 
-          
+          {/* Python Flask Certificate */}
           <Col md={4} className="project-card">
             <Certicards
-              imgPath={pythonFlaskCertificate} // Use the imported image
+              imgPath={pythonFlaskCertificate}
               isBlog={false}
               title="Python Flask Certification"
-              description="Successfully completed a course in Python Flask."
-              link={pythonFlaskCertificate} // Use the image for download
-              downloadText="Download Certificate" // Optional: Text for the download button
+              description="Successfully completed a course in Python Flask, learning backend web development and API creation."
+              link={pythonFlaskCertificate}
+              downloadText="Download Certificate"
             />
           </Col>
 
+          {/* Skillbuild Certificate */}
           <Col md={4} className="project-card">
             <Certicards
-              imgPath={skillbuildCertificate} // Use the imported image
+              imgPath={skillbuildCertificate}
               isBlog={false}
               title="Skillbuild Certificate"
-              description="Successfully completed a Skillbuild certification course."
-              link={skillbuildCertificate} // Use the image for download
-              downloadText="Download Certificate" // Optional: Text for the download button
+              description="Completed the Skillbuild certification course, enhancing my technical and professional skills."
+              link={skillbuildCertificate}
+              downloadText="Download Certificate"
+            />
+          </Col>
+
+          {/* Play Store Certificate */}
+          <Col md={4} className="project-card">
+            <Certicards
+              imgPath={playstore}
+              isBlog={false}
+              title="Google Play Store Certification"
+              description="Published my first Android app on the Google Play Store, showcasing skills in mobile app development."
+              link={playstore}
+              downloadText="Download Certificate"
             />
           </Col>
         </Row>
